@@ -9,7 +9,7 @@ start_time=$(date +%s)
 
 echo "Start time: ${start_time} "
 
-#Note that this is the bank generation for only one tau0 bin. to generate the full bank generale all the tau0 bins
+#Note that this is the bank generation for only one tau0 bin. To get the full bank, generate of all the tau0 bins.
 
 pycbc_brute_bank \
 --input-config main_config.ini \
